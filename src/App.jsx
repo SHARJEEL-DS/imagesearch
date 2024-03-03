@@ -123,7 +123,7 @@ function App() {
                   className='image'
                 />
                 <p>Size: {image.width} x {image.height}</p>
-                <button
+                <button className='button'
                   onClick={() => downloadImage(image.urls.full, `${image.id}.jpg`)}
                 >
                   Download
